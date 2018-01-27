@@ -1,5 +1,15 @@
 // if you don't remember, any lines starting with // are a comment and do not do anything
 
+// anyway, as always, we started by reviewing variables
+// 3 basic variable types: numbers, booleans (true/false), and strings (words/letters)
+var myAge = 17;
+var isAtTheLibrary = true;
+var firstName = "Garrett";
+var lastName = "Smith";
+
+// if I want to concatenate these strings (put them in one string)
+var fullName = firstName + " " + lastName;
+
 // prompt() is one of the ways we ask a question to the user
 var turnOnCar = prompt("Turn on the car?");
 
@@ -7,7 +17,7 @@ var turnOnCar = prompt("Turn on the car?");
 if (turnOnCar == "Yes" || turnOnCar == "Yeah") {
     console.log("Engine turning on...");
 
-    // this calls the function we defined on line 20
+    // this calls the function we defined on line 27
     getLocation();
 
     // we can call it again if we want to without having to type out much
